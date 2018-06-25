@@ -1,3 +1,23 @@
-body{
-  background-color: #FFC107;
+
+body {
+  text-align: center;
+  font-size: 3em;
+  background-color: yellow;
+}
+header {
+   background-color: white;
+}
+button {
+  color: white;
+  background-color: black;
+  border-color: black;
+
+}
+Sedes {
+
+}
+
+Bienvenida {
+  display: none;
+
 }
