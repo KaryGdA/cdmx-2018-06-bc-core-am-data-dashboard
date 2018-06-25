@@ -2,6 +2,58 @@
 
 ## **Proceso de UX**
 
+## **Definición del producto.**
+
+Los Training Managers (TMs) están enfocados en la formación del talento de la empresa. Una de sus mayores responsabilidades es comprender las nuevas tendencias para “diseñar un programa de formación acorde a las nuevas generaciones”.
+En Laboratoria, las TMs son de suma importancia a la hora de reconocer el talento de las alumnas. Por lo anterior y para facilitar el trabajo que realizan, se pretende crear una interfaz donde puedan ver y usar la información que se registra de la comunidad educativa. En otras palabras, servirá para analizar la data, tomar decisiones y crear estrategias. Así pues, tendrán una mejor interacción con la información obtenida, y podrán tener una mejor organización en su registro de actividades y una mayor eficiencia.
+Se realizaron entrevistas a las TMs, tanto presencialmente como a través de correos electrónicos y audios, las respuestas fueron:
+
+[Gráfica 1](img/Grafica1.png)
+
+[Gráfica 2](img/Grafica2.png)
+
+[Gráfica 3](img/Grafica3.png)
+
+[Gráfica 4](img/Grafica4.png)
+
+[Gráfica 5](img/Grafica5.png)
+
+Para el sketch se realizaron dos versiones, una a mano con lápiz y papel, y otra digital en Figma:
+
+[Sketch Ana](img/S-A.png)
+
+[Sketch Karina](img/S-K1.png)
+
+[Sketch Karina](img/S-K2.png)
+
+[Vista 1](img/Vista1.png)
+
+[Vista 2](img/Vista2.png)
+
+[Vista 3](img/Vista3.png)
+
+[Vista 4](img/Vista4.png)
+
+[Vista 5](img/Vista5.png)
+
+[Vista 6](img/Vista6.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+# **Data Dashboard**
+
+## **Proceso de UX**
+
 Nuestro primer acercamiento lo haremos a través del proceso de diseño, donde pasamos por diferentes etapas como:
 
 ### **1. Descubrimiento e investigación**
@@ -33,14 +85,14 @@ __6. Motivaciones del negocio para el data dashboard:__(Enlistarlo(s))
 __1. Cuáles crees que son los datos más importantes a tener en cuenta para el Data Dashboard:__
 
    - Sobre las estudiantes:
- 
+
 
 __2. Lo que los usuarios esperan obtener:__
 
 
 __3. Insights:__
 
-__4. Data proporcionada:__ 
+__4. Data proporcionada:__
 
      -_Data relacionada a los cursos:_
 
