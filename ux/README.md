@@ -8,15 +8,15 @@ Los Training Managers (TMs) están enfocados en la formación del talento de una
 En Laboratoria, las TMs son de suma importancia a la hora de reconocer el talento de las alumnas. Por lo anterior y para facilitar el trabajo que realizan, se pretende crear una interfaz donde puedan ver y usar la información que se registra de la comunidad educativa. En otras palabras, servirá para analizar la data, tomar decisiones y crear estrategias. Así pues, tendrán una mejor interacción con la información obtenida, y podrán tener una mejor organización en su registro de actividades y una mayor eficiencia.
 Se realizaron entrevistas a las TMs, tanto presencialmente como a través de correos electrónicos y audios, las respuestas fueron:
 
-![Gráfica 1](img/Grafica 1.png)
+![Gráfica 1](img/G1.png)
 
-![Gráfica 2](img/Grafica 2.png)
+![Gráfica 2](img/G2.png)
 
-![Gráfica 3](img/Grafica 3.png)
+![Gráfica 3](img/G3.png)
 
-![Gráfica 4](img/Grafica 4.png)
+![Gráfica 4](img/G4.png)
 
-![Gráfica 5](img/Grafica 5.png)
+![Gráfica 5](img/G5.png)
 
 Para el sketch se realizaron dos versiones, una a mano con lápiz y papel, y otra digital en Figma:
 
