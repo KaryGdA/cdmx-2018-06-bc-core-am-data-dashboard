@@ -1,3 +1,24 @@
-body{
+
+body {
+  text-align: center;
+  font-size: 3em;
+  /*Color hexadecimal de LABORATORIA*/
   background-color: #FFC107;
+}
+header {
+   background-color: white;
+}
+button {
+  color: white;
+  background-color: black;
+  border-color: black;
+
+}
+Sedes {
+
+}
+
+Bienvenida {
+  display: none;
+
 }
