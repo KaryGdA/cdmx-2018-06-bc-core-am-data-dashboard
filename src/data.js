@@ -1,5 +1,6 @@
 //window.global = {
 
+
 //Variables para jalar la información JSON, por SEDE y GENERACIONES.
 let api = "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-data-dashboard/data/laboratoria.json";
 let cdmx = document.querySelector("#cdmx");
@@ -129,6 +130,7 @@ let clicking3c = function (){
     return datos.json();
   }).then(function(data){
     console.log(data.santiago.generacion.quinta.estudiantes);
+
 
   })
 }
