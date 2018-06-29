@@ -2,6 +2,7 @@
 
 //Variables para jalar la información JSON, y por SEDE.
 let api = "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-data-dashboard/data/laboratoria.json";
+console.log(api);
 let cdmx = document.querySelector("#cdmx");
 let peru = document.querySelector("#peru");
 let chile = document.querySelector("#chile");
@@ -43,4 +44,19 @@ let clicking3 = function (){
   }).then(function(data){
     console.log(data.santiago)
   })
+}
+
+window.computeStudentsStats(laboratoria) => {
+const obj ={
+  campus: " ",
+  generacion:" ",
+  average: 0,
+  count: 0,
+}
+
+  for (key in laboratoria) {
+    object.campus = key;
+    const object.generacion
+    object.keys(laboratoria[ke].generacion);
+  }
 }
