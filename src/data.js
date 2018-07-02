@@ -1,4 +1,5 @@
-window.global = {
+//window.global = {
+
 
 //Función sortStudents
 
