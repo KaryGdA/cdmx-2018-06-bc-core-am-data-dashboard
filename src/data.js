@@ -3,15 +3,20 @@
 
 //Variables para jalar la información JSON, por SEDE y GENERACIONES.
 let api = "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-data-dashboard/data/laboratoria.json";
-let cdmx = document.querySelector("#cdmx");
-let generacionesM = document.querySelector("#mexGen");
-let peru = document.querySelector("#peru");
-let chile = document.querySelector("#chile");
+
+let mexGen4 = [];
+let mexGen5 = [];
+let peruGen3 = [];
+let peruGen4 = [];
+let peruGen5 = [];
+
 
 
 
 //Evento para llamar la información de la API.
+
 //SEDE - MÉXICO
+//Generación 3
 cdmx1.addEventListener("click", function(){
   clicking1a();
 })
@@ -20,9 +25,16 @@ let clicking1a = function (){
   fetch(api).then(function(datos){
     return datos.json();
   }).then(function(data){
-    console.log(data.mexico.generacion.tercera.estudiantes);
+    //console.log(data.mexico.generacion.tercera.estudiantes);
   })
 }
+
+function pintar(datos){
+  let mexGen3 = data.mexico.generacion.tercera.estudiantes;
+  mexGen3.innerHTML = "";
+}
+
+//Generación 4
   cdmx2.addEventListener("click", function(){
     clicking1b();
   })
@@ -35,6 +47,8 @@ let clicking1a = function (){
   })
 
 }
+
+//Generación 5
 cdmx3.addEventListener("click", function(){
   clicking1c();
 })
@@ -51,7 +65,9 @@ let clicking1c = function (){
 
 
 //Evento para llamar la información de la API.
+
 //SEDE - PERÚ
+//Generación 3
 peru1.addEventListener("click", function(){
   clicking2a();
 })
@@ -65,6 +81,7 @@ let clicking2a = function (){
   })
 }
 
+//Generación 4
 peru2.addEventListener("click", function(){
   clicking2b();
 })
@@ -78,6 +95,7 @@ let clicking2b = function (){
   })
 }
 
+//Generación 5
 peru3.addEventListener("click", function(){
   clicking2c();
 })
@@ -94,7 +112,9 @@ let clicking2c = function (){
 
 
 //Evento para llamar la información de la API.
+
 //SEDE - CHILE
+//Generación 3
 chile1.addEventListener("click", function(){
   clicking3a();
 })
@@ -108,6 +128,7 @@ let clicking3a = function (){
   })
 }
 
+//Generación 4
 chile2.addEventListener("click", function(){
   clicking3b();
 })
@@ -121,6 +142,7 @@ let clicking3b = function (){
   })
 }
 
+//Generación 5
 chile3.addEventListener("click", function(){
   clicking3c();
 })
