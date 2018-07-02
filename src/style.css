@@ -7,13 +7,13 @@ body {
 }
 header {
    background-color: white;
+
 }
 button {
   color: white;
   background-color: black;
   border-color: black;
-
-}
+  }
 Sedes {
 
 }
@@ -21,4 +21,76 @@ Sedes {
 Bienvenida {
   display: none;
 
+}
+
+h2 {
+  color: white;
+  font-family: "Righteous";
+
+}
+
+.sidebar1 {
+	float: left;
+	width: 20%;
+	background-color: white;
+	padding-bottom: 60%;
+  font-family: "Righteous";
+  }
+
+.content {
+	padding: 10px 0;
+	width: 80%;
+	float: left;
+}
+
+.button {
+  font-family: "Righteous";
+  color: #FFC107;
+  font-size:30px;
+  background-color: white;
+  border-color: #FFC107;
+  font-size:60px;
+  }
+
+.button-sec {
+  font-family: "Righteous";
+  background-color: #FFC107;
+  border-color: white;
+  color: white;
+  font-size:30px;
+}
+
+.button-r {
+  font-family: "Righteous";
+  background-color: #FFC107;
+  border-color: white;
+  color: white;
+  font-size:25px;
+}
+
+.button-i {
+  font-family: "Righteous";
+  background-color: #FFC107;
+  border-color: white;
+  color: white;
+  font-size:25px;
+  background-position: top;
+}
+
+.listas {
+  font-family: "Righteous";
+  color: white;
+}
+
+h3 {
+  color: #FFC107;
+}
+
+h5 {
+  color: #FFC107;
+}
+
+
+h6 {
+  color: #FFC107;
 }

@@ -4,23 +4,55 @@
     <meta charset="utf-8">
     <title>Data Dashboard</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   </head>
   <body>
-    <header>
-    <img src="http://v.fastcdn.co/t/cf943cfe/5519e61e/1527645394-27418802-257x33-Laboratoria-Logo-RGB.png" alt="">
-    </header>
-    <div class="Bienvenida">
-    <input type="Usuario" name="" id="usuario" placeholder="Usuario"><br>
-    <input type="Contraseña" name="" value="" placeholder="Contraseña"><br>
+  <header>
+
+
+      <div class="header"><a href="#"><img src="http://v.fastcdn.co/t/cf943cfe/5519e61e/1527645394-27418802-257x33-Laboratoria-Logo-RGB.png" alt=""></a></div>
+  </header>
+
+  <div class="sidebar1">
+    <div>
+      <a href="index.html"></a>
+         <button id="inicio" class="button-i">Inicio</button>
+    </div>
+  </div>
+  <section class="content">
+    <!--<div class="Bienvenida">
+    <input type="Usuario" name="" id="usuario" placeholder="Usuario">
+    <input type="Contraseña" name="" value="" placeholder="Contraseña">
     <button type="button" id="button" name="button">Ingresar</button>
-    </div>
-    <div class="Sedes">
-      <p>Sedes</p>
-      <button id="cdmx">México</button>
-      <button id="peru">Lima</button>
-      <button id="chile">Santiago</button>
-    </div>
-    <script src="main.js"></script>
-    <script src="data.js"></script>
-  </body>
+    </div>-->
+    <nav>
+
+      <h2>Sedes</h2>
+        <section>
+          <div>
+              <a href="indexMex.html"><button id="cdmx" class="button">México</button></a>
+          </div>
+        </section>
+        <section>
+          <div>
+            <a href="indexLima.html"><button id="peru" class="button">Lima</button></a>
+          </div>
+        </section>
+        <section>
+          <div>
+            <a href="indexChile.html"><button id="chile" class="button">Santiago</button></a>
+          </div>
+        </section>
+
+
+    </nav>
+
+  </section>
+
+</body>
+
+  <script src="main.js"></script>
+  <script src="data.js"></script>
+</body>
 </html>
