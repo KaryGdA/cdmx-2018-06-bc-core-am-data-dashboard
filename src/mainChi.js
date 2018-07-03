@@ -11,6 +11,7 @@ chile1.addEventListener("click", function(){
 let clicking3a = function (){
   fetch(api).then(function(datos){
     return datos.json();
+
   }).then(function(laboratoria){
     console.log(laboratoria.santiago.generacion.tercera.estudiantes);
     let listaC3 = laboratoria.santiago.generacion.tercera.estudiantes;
@@ -26,6 +27,7 @@ let clicking3a = function (){
   `
 }
 
+
   })
 }
 
@@ -37,6 +39,7 @@ chile2.addEventListener("click", function(){
 let clicking3b = function (){
   fetch(api).then(function(datos){
     return datos.json();
+
   }).then(function(laboratoria){
     console.log(laboratoria.santiago.generacion.cuarta.estudiantes);
     let listaC4 = laboratoria.santiago.generacion.cuarta.estudiantes;
@@ -52,6 +55,7 @@ let clicking3b = function (){
   `
 }
 
+
   })
 }
 
@@ -63,6 +67,7 @@ chile3.addEventListener("click", function(){
 let clicking3c = function (){
   fetch(api).then(function(datos){
     return datos.json();
+
   }).then(function(laboratoria){
     console.log(laboratoria.santiago.generacion.quinta.estudiantes);
     let listaC5 = laboratoria.santiago.generacion.quinta.estudiantes;
@@ -77,6 +82,7 @@ let clicking3c = function (){
     </ol>
   `
 }
+
 
 
   })

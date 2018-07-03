@@ -11,6 +11,7 @@ peru1.addEventListener("click", function(){
 let clicking2a = function (){
   fetch(api).then(function(datos){
     return datos.json();
+
   }).then(function(laboratoria){
     console.log(laboratoria.lima.generacion.tercera.estudiantes);
     let listaL3 = laboratoria.lima.generacion.tercera.estudiantes;
@@ -26,6 +27,7 @@ let clicking2a = function (){
   `
 }
 
+
   })
 }
 
@@ -37,6 +39,7 @@ peru2.addEventListener("click", function(){
 let clicking2b = function (){
   fetch(api).then(function(datos){
     return datos.json();
+
   }).then(function(laboratoria){
     console.log(laboratoria.lima.generacion.cuarta.estudiantes);
     let listaL4 = laboratoria.lima.generacion.cuarta.estudiantes;
@@ -52,6 +55,7 @@ let clicking2b = function (){
   `
 }
 
+
   })
 }
 
@@ -63,6 +67,7 @@ peru3.addEventListener("click", function(){
 let clicking2c = function (){
   fetch(api).then(function(datos){
     return datos.json();
+
   }).then(function(laboratoria){
     console.log(laboratoria.lima.generacion.quinta.estudiantes);
     let listaL5 = laboratoria.lima.generacion.quinta.estudiantes;
@@ -77,6 +82,7 @@ let clicking2c = function (){
     </ol>
   `
 }
+
 
   })
 }

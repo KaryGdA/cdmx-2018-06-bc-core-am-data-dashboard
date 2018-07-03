@@ -10,6 +10,7 @@ cdmx1.addEventListener("click", function(){
 let clicking1a = function (){
   fetch(api).then(function(datos){
     return datos.json();
+
   }).then(function(laboratoria){
     console.log(laboratoria.mexico.generacion.tercera.estudiantes);
     let listaM3 = laboratoria.mexico.generacion.tercera.estudiantes;
@@ -27,6 +28,7 @@ let clicking1a = function (){
   })
 }
 
+
 //Generación 4
   cdmx2.addEventListener("click", function(){
     clicking1b();
@@ -35,6 +37,7 @@ let clicking1a = function (){
   let clicking1b = function (){
     fetch(api).then(function(datos){
       return datos.json();
+
     }).then(function(laboratoria){
     console.log(laboratoria.mexico.generacion.cuarta.estudiantes);
     let listaM4 = laboratoria.mexico.generacion.cuarta.estudiantes;
@@ -51,6 +54,7 @@ let clicking1a = function (){
   }
 })
 
+
 }
 
 //Generación 5
@@ -61,6 +65,7 @@ cdmx3.addEventListener("click", function(){
 let clicking1c = function (){
   fetch(api).then(function(datos){
     return datos.json();
+
   }).then(function(laboratoria){
   console.log(laboratoria.mexico.generacion.quinta.estudiantes);
   let listaM5 = laboratoria.mexico.generacion.quinta.estudiantes;
@@ -75,6 +80,7 @@ let clicking1c = function (){
   </ol>
 `
 }
+
 })
 
 }
