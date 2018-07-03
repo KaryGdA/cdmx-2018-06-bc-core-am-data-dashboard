@@ -1,4 +1,3 @@
-
 //let api = ('../data/laboratoria.json');
 //console.log(api);
 //let button = document.getElementById("#button");
@@ -6,3 +5,5 @@
   //clicking();
 //})
   //console.log(button);
+
+  

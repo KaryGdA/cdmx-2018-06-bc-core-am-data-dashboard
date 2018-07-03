@@ -23,8 +23,9 @@ Bienvenida {
 
 }
 
-h4 {
-  color: #FFC107;
+h2 {
+  color: white;
+  font-family: "Righteous";
 
 }
 
@@ -44,17 +45,19 @@ h4 {
 
 .button {
   font-family: "Righteous";
+  color: #FFC107;
   font-size:30px;
-  background-color: #FFC107;
-  border-color: white;
+  background-color: white;
+  border-color: #FFC107;
+  font-size:60px;
   }
 
 .button-sec {
   font-family: "Righteous";
-  background-color: white;
+  background-color: #FFC107;
   border-color: white;
-  color: #FFC107;
-
+  color: white;
+  font-size:30px;
 }
 
 .button-r {
@@ -62,6 +65,7 @@ h4 {
   background-color: #FFC107;
   border-color: white;
   color: white;
+  font-size:25px;
 }
 
 .button-i {
@@ -69,9 +73,30 @@ h4 {
   background-color: #FFC107;
   border-color: white;
   color: white;
+  font-size:25px;
+  background-position: top;
 }
 
 .listas {
   font-family: "Righteous";
-  color: white;  
+  color: white;
+}
+
+h3 {
+  color: #FFC107;
+}
+
+h5 {
+  color: #FFC107;
+}
+
+
+h6 {
+  color: #FFC107;
+}
+
+p {
+  color: white;
+  font-size: 15px;
+
 }
